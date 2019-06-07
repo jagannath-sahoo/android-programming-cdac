@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="First Name"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/fName"
+        android:inputType="textPersonName"/>
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Last Name"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/lName"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Age"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/ageView"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Qualification"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/qauli"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Address"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/addr"
+        android:inputType="textLongMessage" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="PINCODE"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/pin"
+        android:inputType="number" />
+
+
+</LinearLayout>

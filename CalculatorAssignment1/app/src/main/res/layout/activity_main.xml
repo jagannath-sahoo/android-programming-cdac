@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/input1"
+        android:textColor="@color/colorPrimary"
+        android:hint="Input 1st Number"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/input2"
+        android:textColor="@color/colorPrimary"
+        android:hint="Input 2nd Number"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30sp"
+        android:text="+"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/btnPlus"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30sp"
+        android:text="-"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/btnMinus"/>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30sp"
+        android:text="*"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/btnMultiply"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30sp"
+        android:text="/"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/btnDivide"/>
+
+</LinearLayout>

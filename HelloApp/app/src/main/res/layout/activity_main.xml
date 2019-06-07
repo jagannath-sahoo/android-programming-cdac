@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PG-DESD"
+        android:textSize="50sp"
+        android:textColor="#ff0000"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEB-19"
+        android:textSize="70sp"
+        android:textColor="#00ff00"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="italic"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Submit"
+        android:background="@drawable/pic2"
+        android:textSize="30sp"
+        android:id="@+id/btnSubmit"/>
+
+</LinearLayout>

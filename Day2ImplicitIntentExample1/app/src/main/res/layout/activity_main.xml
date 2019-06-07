@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo Implicit Intent"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Browser"
+        android:textSize="30sp"
+        android:id="@+id/btnStartBrowser"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Map"
+        android:textSize="30sp"
+        android:id="@+id/btnStartMap"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial number"
+        android:textSize="30sp"
+        android:id="@+id/btnDialNumber"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Number"
+        android:textSize="30sp"
+        android:id="@+id/btnCallNumber"/>
+
+</LinearLayout>

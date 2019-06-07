@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="First Name"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/firstName"
+        android:inputType="textPersonName"/>
+
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Last Name"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/lastName"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Age"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/age"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Qualification"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/qualification"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="Address"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/address"
+        android:inputType="textLongMessage" />
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:hint="PINCODE"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:id="@+id/pincode"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"/>
+</LinearLayout>
